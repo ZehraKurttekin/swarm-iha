@@ -37,8 +37,6 @@ class ArucoCalibratedNode(Node):
 
         self.dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
         self.parameters = cv2.aruco.DetectorParameters_create()
-        self.detector = cv2.aruco.ArucoDetector(self.dictionary, self.parameters)
-
     def image_callback(self, msg):
         try:
             frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
