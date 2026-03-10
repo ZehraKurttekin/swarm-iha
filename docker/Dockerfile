@@ -17,3 +17,9 @@ WORKDIR /home/swarm_user/workspace
 # Başlangıçta ROS2 ortam değişkenlerini yükle
 SHELL ["/bin/bash", "-c"]
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
+RUN apt-get update && apt-get install -y \
+    ros-humble-cv-bridge \
+    ros-humble-vision-opencv \
+    python3-opencv \
+    && rm -rf /var/lib/apt/lists/*
