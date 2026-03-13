@@ -5,9 +5,9 @@ services:
     platform: linux/amd64
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: docker/Dockerfile
     container_name: swarm_container
     volumes:
-      - ..:/home/swarm_user/workspace
+      - .:/home/swarm_user/workspace
     tty: true
     stdin_open: true
