@@ -23,3 +23,6 @@ RUN apt-get update && apt-get install -y \
     ros-humble-vision-opencv \
     python3-opencv \
     && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install qrcode[pil]
+CMD ["python3", "create_qr.py"]
