@@ -1,0 +1,31 @@
+{
+  "qr_id": 2,
+  "gorev": {
+    "formasyon": {
+      "aktif": true,
+      "tip": "V",
+      "ajanlar_arasi_mesafe_m": 6
+    },
+    "manevra_pitch_roll": {
+      "aktif": false,
+      "pitch_deg": "0",
+      "roll_deg": "0"
+    },
+    "irtifa_degisim": {
+      "aktif": true,
+      "deger": 20
+    },
+    "bekleme_suresi_s": 5
+  },
+  "suruden_ayrilma": {
+    "aktif": true,
+    "ayrilacak_drone_id": "drone_2",
+    "hedef_renk": "KIRMIZI",
+    "bekleme_suresi_s": 8
+  },
+  "sonraki_qr": {
+    "team_1": 3,
+    "team_2": 3,
+    "team_3": 3
+  }
+}
