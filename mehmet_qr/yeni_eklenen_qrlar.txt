@@ -1,0 +1,29 @@
+
+qr4
+
+Bu QR'daki görevler
+✓ Çizgi formasyonu (6m aralık)
+✓ İrtifa değişimi → 18m
+✓ drone_3 → MAVİ alana iniş
+– Pitch/Roll manevrası
+✓ Bekleme 4 sn
+
+qr5
+
+Bu QR'daki görevler
+✓ V formasyonu (5m aralık)
+✓ İrtifa değişimi → 12m
+✓ drone_2 → KIRMIZI alana iniş
+✓ drone_2 sürüye yeniden katılım
+– Pitch/Roll manevrası
+✓ Bekleme 5 sn
+
+qr6
+
+Bu QR'daki görevler
+✓ Ok Başı formasyonu (5m aralık)
+✓ Pitch manevrası: −10°
+✓ Roll manevrası: +8°
+– İrtifa değişimi
+– Sürüden ayrılma
+✓ Bekleme 5 sn → Home'a dönüş

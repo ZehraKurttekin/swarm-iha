@@ -1,0 +1,36 @@
+{
+  "qr_id": 6,
+  "gorev": {
+    "formasyon": {
+      "aktif": true,
+      "tip": "OKBASI",
+      "ajanlar_arasi_mesafe_m": 5
+    },
+    "manevra_pitch_roll": {
+      "aktif": true,
+      "pitch_deg": "-10",
+      "roll_deg": "+8"
+    },
+    "irtifa_degisim": {
+      "aktif": false,
+      "deger": null
+    },
+    "bekleme_suresi_s": 5
+  },
+  "suruden_ayrilma": {
+    "aktif": false,
+    "ayrilacak_drone_id": null,
+    "hedef_renk": null,
+    "bekleme_suresi_s": null
+  },
+  "suruden_katilma": {
+    "aktif": false,
+    "katilacak_drone_id": null,
+    "bekleme_sonrasi_arm": false
+  },
+  "sonraki_qr": {
+    "team_1": 0,
+    "team_2": 0,
+    "team_3": 0
+  }
+}
